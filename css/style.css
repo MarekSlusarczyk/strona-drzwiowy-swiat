@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Armenian", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    background-image: url('../img/baner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    /* filter: blur(2px);
+    clip-path: inset(0); */
+    overflow: hidden;
+}
+
+.headerLogo {
+    height: 100px;
+}
+
+.headerBackground {
+    position: relative;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.headerBackground h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    /* font-family: "Noto Sans Armenian", sans-serif; */
+    text-shadow: #000 1px 0 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px 0 30px;
+}
+
+nav div ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav div ul li a {
+    /* font-family: "Noto Sans Armenian", sans-serif; */
+    font-size: 16px;
+    margin-right: 25px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+nav div ul li a:hover {
+    color: rgb(199, 199, 199);
+}
+
+nav div ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(245, 245, 245);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* font-family: "Noto Sans Armenian", sans-serif; */
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    min-height: 25vh;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #000912, #1b3e55);
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div:first-child {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div > .link a {
+    color: white;
+    text-decoration: none;
+}
+
+.link {
+    margin-top: 10px;
+}
+
+footer > div > .link a img, footer > div > .link a .icon {
+    font-size: 20px;
+    width: 20px;
+    height: auto;
+}
+
+.wyroznik {
+    color: #d7b456;
+}
+
+.footerLogo {
+    width: 120px;
+    height: auto;
+}
+
+.companyName {
+    display: flex;
+    flex-direction: column;
+    /* font-size: 25px; */
+}
+
+.webAddress {
+    font-size: 25px; 
+}
+
+.copyrights {
+    font-size: 11px;
+}

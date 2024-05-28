@@ -1,0 +1,23 @@
+.navbar-brand img {
+    height: 100px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    transition: all 0.1s ease-in;
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(199, 199, 199);
+}
+
+.navbar {
+    background: transparent;
+    width: 100%;
+    position: relative;
+    z-index: 10000;
+    margin: 0;
+}
